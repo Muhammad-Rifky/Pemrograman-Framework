@@ -1,13 +1,18 @@
 ## Langkah praktikum
 ### Persiapan lingkungan
 1. Pastikan Node.js dan npm sudah terinstal di komputer Anda. Anda dapat memeriksanya dengan 
-menjalankan perintah berikut di terminal atau command prompt: 
+menjalankan perintah berikut di terminal atau command prompt:
+
 ![Screenshot](assets/2.png)
-2. Buat direktori baru untuk proyek Next.js Anda 
-3. Inisialisasi proyek Next.js dengan menjalankan perintah berikut: Perhatikan bahwa App Router 
+
+3. Buat direktori baru untuk proyek Next.js Anda 
+4. Inisialisasi proyek Next.js dengan menjalankan perintah berikut: Perhatikan bahwa App Router 
 belum digunakan
+
 ![Screenshot](assets/1.png)
-4. Jalankan aplikasi Next.js dengan perintah:
+
+6. Jalankan aplikasi Next.js dengan perintah:
+   
 ![Screenshot](assets/3.png)
 
 ### Membuat halaman dengan Server-Side Rendering
@@ -28,6 +33,7 @@ const HomePage = () => {
 export default HomePage;
 ```
 Hasil:
+
 ![Screenshot](assets/4.png)
 
 ### Membuat halaman dengan static Site Generation (SSG)
@@ -63,6 +69,7 @@ export async function getStaticProps() {
 
 export default Blog;    
 ```
+
 ![Screenshot](assets/5.png)
 
 ### Menggunakan Dynamic Routes
@@ -85,7 +92,8 @@ const BlogPost = () => {
 }
 
 export default BlogPost;
-```   
+```
+
 ![Screenshot](assets/6.png)
 
 ### Menggunakan API Routes 
