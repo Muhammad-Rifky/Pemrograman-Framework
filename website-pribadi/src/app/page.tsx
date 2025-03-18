@@ -30,7 +30,7 @@ export default function TentangSaya() {
           <p className='text-base text-zinc-500 mt-4'>
             Saya juga tertarik dalam desain antarmuka dan pengembangan aplikasi berbasis frontend dan backend. Selain itu, saya senang berbagi tutorial, artikel, dan berbicara dalam konferensi.
           </p>
-          <a href='mailto:email@example.com' className='mt-8 inline-block bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600'>
+          <a href='mailto:muh.rifky.harto@gmail.com' className='mt-8 inline-block bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600'>
             Hubungi Saya
           </a>
         </div>
