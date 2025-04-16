@@ -4,9 +4,12 @@ import profileImage from '../../public/images/pofile.jpg';
 
 export const metadata: Metadata = {
   title: 'Tentang Saya',
-  description: 'Halaman tentang diri saya dan karya yang telah saya buat.',
+  description: 'Personal site of Muhammad Rifky Harto Biantoro',
+    openGraph: {
+      images: 'http://192.168.56.1:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpofile.c19d019a.jpg&w=3840&q=75',
+      url: 'http://192.168.56.1:3000/',
+    },
 };
-
 export default function TentangSaya() {
   return (
     <div className='mt-16 px-8'>

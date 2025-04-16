@@ -30,8 +30,12 @@ function ArticleItem({ title, url, description, imageSrc }: ArticleItemProps) {
 }
 
 export const metadata: Metadata = {
-  title: 'Esai',
-  description: 'Daftar artikel dan esai yang telah saya tulis.',
+  title: 'Esai Saya',
+  description: 'Beberapa esai yang pernah saya buat dan publikasikan',
+  openGraph: {
+    images: 'http://192.168.56.1:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farticle1.87f34d8f.png&w=3840&q=75',
+    url: 'http://192.168.56.1:3000/essays',
+  },
 };
 
 export default function Esai() {

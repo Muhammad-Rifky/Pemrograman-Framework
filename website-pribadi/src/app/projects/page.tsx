@@ -3,6 +3,14 @@ import Image, { StaticImageData } from 'next/image';
 import image1 from '../../../public/images/projects1.png';
 import image2 from '../../../public/images/projects2.png';
 
+export const metadata: Metadata = {
+  title: 'Projects saya',
+  description: 'berisi tentang beberapa project yang pernah saya kerjakan',
+  openGraph: {
+    images: 'http://192.168.56.1:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprojects2.967832e1.png&w=3840&q=75',
+    url: 'http://192.168.56.1:3000/projects',
+  },
+};
 /*export const metadata: Metadata = {
   title: 'Website Pribadi',
   description: 'Website pribadi untuk menampilkan proyek dan essay saya.',
